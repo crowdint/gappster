@@ -9,10 +9,10 @@ Gem::Specification.new do |s|
   s.date = %q{2010-07-19}
   s.description = %q{Google Apps authentication}
   s.email = %q{david@crowdint.com}
-  s.extra_rdoc_files = ["README.rdoc"]
-  s.files = ["README.rdoc", "Rakefile", "Manifest", "gappster.gemspec"]
+  s.extra_rdoc_files = ["README.markdown", "lib/ca-bundle.crt", "lib/gapps_openid.rb", "lib/gappster.rb"]
+  s.files = ["Gemfile", "README.markdown", "Rakefile", "init.rb", "lib/ca-bundle.crt", "lib/gapps_openid.rb", "lib/gappster.rb", "Manifest", "gappster.gemspec"]
   s.homepage = %q{http://github.com/crowdint/gappster}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Gappster", "--main", "README.rdoc"]
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Gappster", "--main", "README.markdown"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{gappster}
   s.rubygems_version = %q{1.3.7}
