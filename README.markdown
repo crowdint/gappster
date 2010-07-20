@@ -2,6 +2,10 @@
 
 Quick solution for Rails to authenticate your users with Google Apps' Open Id
 
+## Honor to whom honor is due
+
+This gem includes code from [this lib](http://code.google.com/p/ruby-openid-apps-discovery/), but I haven't been able to contact the authors to let them know. If you know them, please ask them to contact me.
+
 ## Install the gem
 
 Just install it as a gem
